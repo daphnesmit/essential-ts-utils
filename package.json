@@ -2,7 +2,7 @@
   "name": "essential-ts-utils",
   "author": "Daphne Smit",
   "description": "🦄 Put unicorns and rainbows on any website on the Internet with a single React Hook!",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
