@@ -1,4 +1,4 @@
-export function parseJson(json: string, defaultValue: any = undefined) {
+export const parseJson = (json: string, defaultValue: any = undefined) => {
   let parsed
 
   try {

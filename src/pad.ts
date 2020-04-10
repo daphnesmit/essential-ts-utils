@@ -1,3 +1,2 @@
-export function pad(num: number, size: number = 2, type: string = '0') {
-  return `${num}`.padStart(size, type)
-}
+export const pad = (num: number, size: number = 2, type: string = '0') =>
+  `${num}`.padStart(size, type)

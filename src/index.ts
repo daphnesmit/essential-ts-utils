@@ -1,4 +1,5 @@
 export * from './emojiKiller'
+export * from './groupBy'
 export * from './pad'
 export * from './parseJson'
 export * from './sum'
