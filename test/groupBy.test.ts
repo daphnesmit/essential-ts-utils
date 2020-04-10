@@ -1,6 +1,6 @@
 import { groupBy } from '../src'
 
-const arr = [
+const array = [
   {
     firstName: 'Daphne',
     lastName: 'Smit',
@@ -20,7 +20,7 @@ const arr = [
 
 describe('groupBy', () => {
   it('should group an array by property and return a grouped object', () => {
-    expect(groupBy(arr, 'lastName')).toEqual({
+    expect(groupBy(array, 'lastName')).toEqual({
       Smit: [
         { firstName: 'Daphne', lastName: 'Smit', age: 32 },
         { firstName: 'Maarten', lastName: 'Smit', age: 30 },
@@ -29,7 +29,7 @@ describe('groupBy', () => {
     })
   })
   it('should group an array by property and return a grouped object', () => {
-    expect(groupBy(arr, 'age')).toEqual({
+    expect(groupBy(array, 'age')).toEqual({
       '30': [
         { firstName: 'Matt', lastName: 'Van Voorst', age: 30 },
         { firstName: 'Maarten', lastName: 'Smit', age: 30 },
