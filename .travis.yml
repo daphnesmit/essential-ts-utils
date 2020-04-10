@@ -5,6 +5,7 @@ node_js:
 
 stages:
   - test
+  - build
   - name: release
     if: branch = master
 
