@@ -6,10 +6,15 @@ You have a nice utility?
 Great! Contribute by sending a Pull Request!
 
 ## 📄 The current list
-- sum
-- pad
-- parseJson
-- emojiKiller
+
+| Utils         | Description                                    |
+| ------------- |------------------------------------------------|
+| emojiKiller   | remove all emojis from a string                |
+| groupBy       | group an array by a property                   |
+| pad           | add padding zero's to a number: 7 > 07         |
+| parseJson     | parse json string safely with a try catch      |
+| sum           | sum values: 1 + 1 = 2                          |
+| ucfirst       | uppercase the first character of a string      |
 
 
 ## 🎉 How to use
