@@ -2,7 +2,7 @@
 
 Essential Typescript utils is a collection of useful common used Javascript utilities written in Typescript.
 
-## 🎉 How to use
+# 🎉 How to use
 
 ```typescript
 import { sum } from 'essential-ts-utils'
@@ -11,6 +11,8 @@ const total = sum(5, 4)
 console.log('The total of 5 + 4 equals ', total)
 
 ```
+
+# Contribution information about the tech stack
 
 ## 🚩 Linting
 
@@ -21,6 +23,11 @@ Nicer code with [prettier](https://prettier.io/)!
 ### Commitlint
 You might want to remove or customize [Commitlint](https://github.com/conventional-changelog/commitlint).
 Commitlint checks if your commit messages meet the conventional commit format. But in case you are using JIRA you might want to have a different commit message structure, example [here](https://github.com/Gherciu/commitlint-jira] or [here](https://www.npmjs.com/package/commitlint-config-jira]
+
+To launch the commit helper:
+```
+yarn commit
+```
 
 
 ## 🚀 Typescript
