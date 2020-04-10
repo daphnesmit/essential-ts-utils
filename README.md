@@ -9,6 +9,7 @@ Great! Contribute by sending a Pull Request!
 
 | Utils         | Description                                    |
 | ------------- |------------------------------------------------|
+| average       | calculate the average of a number array        |
 | emojiKiller   | remove all emojis from a string                |
 | groupBy       | group an array by a property                   |
 | pad           | add padding zero's to a number: 7 > 07         |
