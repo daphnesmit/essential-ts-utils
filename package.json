@@ -1,0 +1,70 @@
+{
+  "name": "essential-ts-utils",
+  "author": "Daphne Smit",
+  "description": "🦄 Put unicorns and rainbows on any website on the Internet with a single React Hook!",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/essential-ts-utils.esm.js",
+  "homepage": "https://github.com/daphnesmit/essential-ts-utils#readme",
+  "sideEffects": false,
+  "keywords": [
+    "typescript",
+    "utilities",
+    "utils",
+    "essential",
+    "helpers",
+    "array",
+    "object",
+    "json"
+  ],
+  "contributors": [
+    {
+      "name": "Daphne Smit",
+      "email": "hi@daphnesmit.nl"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daphnesmit/essential-ts-utils"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "commitmsg": "npx commitlint -e $GIT_PARAMS",
+    "commit": "commit",
+    "semantic-release": "semantic-release"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint",
+      "commit-msg": "npm run commitmsg",
+      "pre-push": "npm run test"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-angular": "^8.3.4",
+    "@commitlint/prompt": "^8.3.5",
+    "@commitlint/prompt-cli": "^8.3.5",
+    "@types/jest": "^25.2.1",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.4",
+    "semantic-release": "^17.0.4",
+    "tsdx": "^0.13.1",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  }
+}
