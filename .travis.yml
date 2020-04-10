@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+  - '12'
+
+stages:
+  - test
+  - name: release
+    if: branch = master
+
+jobs:
+  include:
+    - stage: test           
+      name: "Test"           
+      script:
+        - npm run test
+
+    - stage: build
+      name: "Build"
+      script:
+        - npm run build
