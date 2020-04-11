@@ -41,7 +41,7 @@ Nicer code with [prettier](https://prettier.io/)!
 
 #### Commitlint
 You might want to remove or customize [Commitlint](https://github.com/conventional-changelog/commitlint).
-Commitlint checks if your commit messages meet the conventional commit format. But in case you are using JIRA you might want to have a different commit message structure, example [here](https://github.com/Gherciu/commitlint-jira] or [here](https://www.npmjs.com/package/commitlint-config-jira]
+Commitlint checks if your commit messages meet the conventional commit format. But in case you are using JIRA you might want to have a different commit message structure, [example](https://github.com/Gherciu/commitlint-jira) and [another](https://www.npmjs.com/package/commitlint-config-jira)
 
 To launch the commit helper:
 ```
