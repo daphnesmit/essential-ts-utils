@@ -4,5 +4,5 @@ export const groupBy = <T, K extends keyof any>(list: T[], getKey: (item: T) => 
     if (!previous[group]) previous[group] = []
     previous[group].push(currentItem)
     return previous
-  }, {} as Record<K, T[]>);
+  }, {} as Record<K, T[]>)
 }
