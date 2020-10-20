@@ -20,7 +20,7 @@ const array = [
 
 describe('groupBy', () => {
   it('should group an array by property and return a grouped object', () => {
-    expect(groupBy(array, 'lastName')).toEqual({
+    expect(groupBy(array, (i) => i.lastName)).toEqual({
       Smit: [
         { firstName: 'Daphne', lastName: 'Smit', age: 32 },
         { firstName: 'Maarten', lastName: 'Smit', age: 30 },
@@ -29,7 +29,7 @@ describe('groupBy', () => {
     })
   })
   it('should group an array by property and return a grouped object', () => {
-    expect(groupBy(array, 'age')).toEqual({
+    expect(groupBy(array, (i) => i.age)).toEqual({
       '30': [
         { firstName: 'Matt', lastName: 'Van Voorst', age: 30 },
         { firstName: 'Maarten', lastName: 'Smit', age: 30 },
