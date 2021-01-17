@@ -17,7 +17,6 @@ Great! Contribute by sending a Pull Request!
 | sum           | sum values: 1 + 1 = 2                          |
 | ucfirst       | uppercase the first character of a string      |
 
-
 ## 🎉 How to use
 
 ```typescript
